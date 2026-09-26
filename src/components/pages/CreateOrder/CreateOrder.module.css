@@ -1,0 +1,110 @@
+.create {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.menu h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.filter {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.2rem;
+}
+
+.item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.item h2 {
+  font-size: 1rem;
+  padding: 0.8rem 0.9rem 0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0.9rem 0.9rem;
+}
+
+.price {
+  font-weight: 600;
+  color: var(--color-rust);
+  font-family: var(--font-display);
+}
+
+.form {
+  align-self: start;
+  position: sticky;
+  top: 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.15rem;
+}
+
+.input {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cart {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.number {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 600;
+}

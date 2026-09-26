@@ -1,0 +1,59 @@
+.order {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--color-espresso);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.button {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.table thead {
+  background: var(--color-espresso);
+}
+
+.table th {
+  text-align: left;
+  padding: 0.9rem 1rem;
+  color: var(--color-bg);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.table td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--color-line);
+  font-size: 0.95rem;
+}
+
+.table tbody tr:hover {
+  background: var(--color-bg);
+}
+
+.action {
+  display: flex;
+  gap: 0.6rem;
+}
